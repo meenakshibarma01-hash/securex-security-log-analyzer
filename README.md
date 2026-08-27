@@ -1,46 +1,95 @@
-# SecureX — Security Log Analyzer
+# 🛡️ SecureX – Security Log Analyzer
 
-Professional SOC-style Security Log Analyzer for a college Project Expo.
+A modern React-based **Security Log Analyzer** designed for real-time security monitoring, threat detection, log investigation, and security reporting.
 
-## Features
-- Login screen with local session authentication
-- Dark Glassmorphism SOC interface
-- Real-time synthetic log monitoring
-- Upload `.log`, `.txt`, or `.csv` files
-- Pattern-based security detection
-- Severity classification: Normal, Medium, High, Critical
-- Dashboard with live charts and KPIs
-- View Logs with search and severity filtering
-- Alerts investigation page
-- IP Analysis
-- User Activity
-- Printable report / Save as PDF
-- CSV and JSON export
-- Responsive layout
-- LocalStorage session/log persistence
-- No external API key required
+SecureX provides a professional **SOC-style dashboard** with a modern Glassmorphism interface, severity-based threat classification, interactive charts, alerts, IP analysis, and exportable reports.
 
-## Run
-```bash
-npm install
-npm run dev
-```
+---
 
-Then open the Vite URL shown in the terminal (normally `http://localhost:5173`).
+## 🚀 Live Demo
 
-## Login
-For demo/expo mode, any non-empty username and password are accepted.
+👉 https://securex-security-log-analyzer.vercel.app/
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+---
 
-## Project structure
-- `src/App.jsx` — authentication, routing, live monitoring state
-- `src/styles.css` — complete Glassmorphism SOC UI
-- `src/utils/analyzer.js` — log detection engine
-- `src/utils/report.js` — CSV, JSON and printable report export
-- `src/pages/` — dashboard and monitoring screens
-- `public/security.log` — sample demo log
+## 💻 GitHub Repository
+
+👉 [https://github.com/meenakshibarma01-hash/securex-security-log-analyzer](https://github.com/meenakshibarma01-hash/securex-security-log-analyzer)
+
+---
+
+## ✨ Features
+
+- 🔐 Professional Login Interface
+- 📊 Real-Time Security Dashboard
+- ⚡ Real-Time Log Monitoring
+- 📁 Security Log Upload
+- 🔎 Log Search and Filtering
+- 🚨 Automated Threat Detection
+- 🟢 Normal / 🟡 Medium / 🟠 High / 🔴 Critical Severity Levels
+- 🌐 IP Analysis
+- 🚨 Security Alerts
+- 📋 Detailed Log Investigation
+- 📈 Interactive Security Charts
+- 📄 Exportable Reports
+- 📥 CSV and JSON Export
+- 🖨️ Printable / PDF-Ready Reports
+- 🌑 Dark SOC-Style Glassmorphism UI
+- 📱 Responsive Design
+
+---
+
+## 🔐 Login
+
+SecureX provides a professional login interface that acts as the entry point to the security monitoring platform.
+
+The login system provides controlled access to the dashboard, logs, alerts, and reports.
+
+---
+
+## 📊 Dashboard
+
+The SecureX Dashboard acts as the central security monitoring console.
+
+It provides:
+
+- Total log events
+- Normal events
+- Suspicious events
+- High-severity events
+- Critical events
+- Event activity
+- Threat activity
+- Severity distribution
+- Top source IP addresses
+- Recent security events
+- Live monitoring status
+
+---
+
+## 📁 Upload Logs
+
+Users can upload security log files and analyze them automatically.
+
+### Supported Formats
+
+- `.log`
+- `.txt`
+- `.csv`
+
+### Analysis Process
+
+```text
+Upload Logs
+     ↓
+Read Log Data
+     ↓
+Analyze Events
+     ↓
+Detect Threats
+     ↓
+Assign Severity
+     ↓
+Generate Alerts
+     ↓
+Update Dashboard
